@@ -1,0 +1,63 @@
+{
+  "name": "tailwind-class-doctor",
+  "version": "0.1.0",
+  "description": "Lint Tailwind class strings for duplicates, conflicting utilities, and canonical order — with autofix.",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "lint",
+    "linter",
+    "cli",
+    "classnames",
+    "class-sorting",
+    "tailwind-merge",
+    "conflicts",
+    "code-quality",
+    "formatter",
+    "autofix"
+  ],
+  "author": "kea0811",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kea0811/tailwind-class-doctor.git"
+  },
+  "homepage": "https://github.com/kea0811/tailwind-class-doctor#readme",
+  "bugs": {
+    "url": "https://github.com/kea0811/tailwind-class-doctor/issues"
+  },
+  "type": "module",
+  "bin": {
+    "tailwind-class-doctor": "dist/index.js",
+    "twdoctor": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@10.28.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@vitest/coverage-v8": "^3.2.4",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
