@@ -4,6 +4,8 @@
 ![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
+**🌐 [Live demo →](https://tailwind-class-doctor.vercel.app)**
+
 > A lint doctor for Tailwind class strings — finds duplicates, conflicting utilities, and messy ordering, then fixes them.
 
 `p-2 p-4` silently throws half your styles away. Copy-pasted markup collects
